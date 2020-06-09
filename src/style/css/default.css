@@ -1,0 +1,268 @@
+/* width */
+
+::-webkit-scrollbar {
+    width: 1.5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 1.5px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 20, 20);
+    border-radius: 1.5px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+.ContRelatorio {
+    margin-top: 2%;
+    display: flex; 
+}
+
+.CardRelatorio {
+    color: rgb(255, 255, 255);
+    border-radius: .25rem;
+    font-size: 1.09375rem;
+    padding: 0.2%;
+    width: 100%;
+}
+
+.CardLargo {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: .25rem;
+}
+
+.TitleCadastro {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(250, 250, 250);
+}
+
+.FlutuarDireita {
+    float: right;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: #099;
+    border-color: #099;
+}
+
+.btn {
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: .875rem;
+    border-radius: .25rem;
+}
+
+.App {
+    background: #F9F9F9;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.formUser {
+    padding: 30px
+}
+
+.ViewIcon {
+    width: 90%;
+}
+
+.Card-auth {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 37%;
+    background: white;
+    border-radius: 0;
+    border-top: none;
+    border-bottom: 5px solid #F5F5F5;
+    border-right: 3px solid #F5F5F5;
+    border-left: 3px solid #F5F5F5;
+    font-family: 'Montserrat';
+}
+
+.HelpButton {
+    float: right;
+    padding-top: 10px;
+    color: #b5b5b6;
+    border-bottom: 1px solid;
+}
+
+.HelpButton:hover {
+    color: #858586;
+}
+
+.buttonEnter {
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 80px;
+    color: white
+}
+
+.BasePage {
+    height: 100vh;
+    position: absolute;
+    background: #F9F9F9;
+    font-family: 'Montserrat';
+}
+
+.menuTop {
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.menuTitle {
+    padding: 10px;
+    width: 80%;
+}
+
+.ContDash {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    display: none;
+}
+
+.BaseMenu {
+    width: 100%;
+    background: #5F5F5F;
+    display: flex;
+    padding: 2%;
+}
+
+.BaseMenu:hover {
+    border-left: solid rgb(255, 20, 20) 2px;
+}
+
+.containerSpinner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.hello {
+    float: right; 
+    padding-right: 3%;
+    font-size: 1.25rem; 
+    margin-top: 0.6%;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background: #F9F9F9;
+    color: rgb(255, 20, 20);
+}
+
+.tampaLateral {
+    background: #fff;
+    position: absolute;
+    height: 95%;
+    width: 7%;
+}
+
+.tampaSuperior {
+    background: #fff;
+    position: absolute;
+    width: 97%;
+    height: 12%;
+}
+
+.logout {
+    float: right;
+    font-size: 1.25rem; 
+    padding-right: 3%;
+    color: #23282c;
+    font-family: 'Montserrat';
+    margin-top: 0.6% !important;
+}
+
+.logout:hover {
+    color: rgb(255, 20, 20);
+}
+
+/*futuro balao de legenda*/
+
+/* .logout:hover + .bubble{
+    display: inline-block;
+    position: absolute;
+    float: right;
+}
+
+.bubble {
+    background-color: #333;
+    border-radius: 5px;
+    color: #fff;
+    display: none;
+    position: relative;
+    float: right;
+} */
+
+.menuLink {
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    background-color: rgb(131, 130, 130);
+}
+
+.menuLink:hover {
+    color: #23282c;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.iconMenu {
+    padding: 10px !important;
+    display: -webkit-inline-box;
+}
+
+.menuTop {
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid #F5F5F5;
+    max-height: 8.1%;
+}
+
+.MenuLateral {
+    position: fixed;
+    height: 92%;
+    background-color: #5F5F5F;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    margin-top: 4%;
+    overflow: auto;
+}
+
+.BaseConteudo {
+    height: 88%;
+    float: right;
+    -webkit-transition: 0.5s;
+    padding: 40px;
+}
+
+.iconMenu {
+    padding: 10px !important;
+    display: -webkit-inline-box;
+}
